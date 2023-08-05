@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100vh;
+    position: relative;
+    background: url(./img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
