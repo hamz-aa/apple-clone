@@ -31,7 +31,7 @@ body{
     align-items: center;
     z-index: 99;
     position: fixed;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .nav-wrapper ul{
@@ -60,7 +60,6 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 .bg-wrapper{
@@ -99,4 +98,176 @@ body{
 
 .bg-wrapper a:hover span{
     border-bottom: 2px solid #2997ff;
+}
+
+.section-1{
+    height: 100vh;
+    position: relative;
+    background: url(./img/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem 0;
+}
+
+.section-1 .bg-wrapper{
+    left: 40%;
+    top: 9%;
+}
+
+.section-1 h1, .section-1 p{
+    color: #1d1d1f;
+}
+
+.section-1 a{
+    color: #0066cc;
+}
+
+.section-1 a:hover span{
+    border-bottom: 2px solid #0066cc;
+}
+
+.section-2{
+    height: 100vh;
+    position: relative;
+    background: url(./img/hero_bts2023_startframe__f787lg06y3ue_large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem 0;
+}
+
+.section-2 .bg-wrapper{
+    left: 30%;
+    top: 10%;
+}
+
+.section-2 h1, .section-2 p{
+    color: #1d1d1f;
+}
+
+.section-2 a{
+    color: #0066cc;
+}
+
+.section-2 a:hover span{
+    border-bottom: 2px solid #0066cc;
+}
+
+.section-3{
+    height: 95vh;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-3 .left{
+    flex: 1 1 50%;
+    background: url(./img/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-3 .right{
+    flex: 1 1 50%;
+    background: url(./img/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-3 .bg-wrapper{
+    position: absolute;
+}
+
+.left .bg-wrapper h1,
+.left .bg-wrapper p{
+    color: #1d1d1f;
+}
+
+.section-3 .bg-wrapper h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+.section-3 .bg-wrapper p{
+    font-size: 2rem;
+}
+
+.left .bg-wrapper a{
+    font-size: 1.8rem;
+    color: #1472d0;
+}
+
+.left .bg-wrapper a:hover span{
+    border-bottom: 1px solid #1472d0;
+}
+
+.section-3 .left .bg-wrapper{
+    top: 10%;
+    left: 25%;
+}
+
+.right .bg-wrapper a{
+    font-size: 1.8rem;
+}
+
+.right .bg-wrapper a:hover span{
+    border-bottom: 1px solid #2997ff;
+}
+
+.section-3 .right .bg-wrapper{
+    top: 10%;
+    left: 35%;
+}
+
+.right img{
+    margin-bottom: 1rem;
+}
+
+.section-4{
+    height: 95vh;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-4 .left{
+    flex: 1 1 50%;
+    background: url(./img/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-4 .right{
+    flex: 1 1 50%;
+    background: url(./img/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-4 .bg-wrapper{
+    position: absolute;
+}
+
+.section-4 .bg-wrapper p{
+    font-size: 2rem;
+}
+
+.section-4 .left .bg-wrapper p:nth-child(3){
+    color: #6e6e73;
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+}
+
+.section-4 .left .bg-wrapper{
+    left: 23%;
+    top: 68%;
 }
