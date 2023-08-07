@@ -1,273 +1,340 @@
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-body{
-    font-family: 'SF Pro Display', sans-serif;
+body {
+  font-family: "SF Pro Display", sans-serif;
 }
 
-.container{
-    max-width: 1000px;
-    width: 100%;
-    margin: auto;
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
 }
 
-.navbar{
-    /* border: 2px solid red; */
-    font-weight: 400;
-    font-size: 1.2rem;
-    height: 45px;
-    width: 100%;
-    background-color: #121212;
-    display: flex;
-    align-items: center;
-    z-index: 99;
-    position: fixed;
-    opacity: 0.9;
+.navbar {
+  /* border: 2px solid red; */
+  font-weight: 400;
+  font-size: 1.2rem;
+  height: 45px;
+  width: 100%;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+  position: fixed;
+  opacity: 0.9;
 }
 
-.nav-wrapper ul{
-    display: flex;
-    justify-content: space-between;
-    /* padding: 1em 0em; */
+.nav-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 1em 0em; */
 }
 
-.nav-wrapper ul li{
-    list-style: none;
+.nav-wrapper ul li {
+  list-style: none;
 }
 
-.nav-wrapper ul li a{
-    color: #d0d0d1;
-    text-decoration: none;
+.nav-wrapper ul li a {
+  color: #d0d0d1;
+  text-decoration: none;
 }
 
-.nav-wrapper ul .item{
-    padding-top: 0.5em;
+.nav-wrapper ul .item {
+  padding-top: 0.5em;
 }
 
-.bg-header{
-    height: 100vh;
-    position: relative;
-    background: url(./img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.bg-header {
+  height: 100vh;
+  position: relative;
+  background: url(./img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.bg-wrapper{
-    height: 100%;
-    position: absolute;
-    left: 38%;
-    z-index: 2;
-    top: 15%;
-    text-align: center;
+.bg-wrapper {
+  height: 100%;
+  position: absolute;
+  left: 38%;
+  z-index: 2;
+  top: 15%;
+  text-align: center;
 }
 
-.bg-wrapper h1{
-    font-size: 5.5rem;
-    font-weight: 600;
-    color: #f5f5f7;
+.bg-wrapper h1 {
+  font-size: 5.5rem;
+  font-weight: 600;
+  color: #f5f5f7;
 }
 
-.bg-wrapper p{
-    color: #f5f5f7;
-    font-size: 2.8rem;
-    font-weight: 300;
-    padding-bottom: 0.5em;
+.bg-wrapper p {
+  color: #f5f5f7;
+  font-size: 2.8rem;
+  font-weight: 300;
+  padding-bottom: 0.5em;
 }
 
-.bg-wrapper a{
-    text-decoration: none;
-    font-size: 2.2rem;
-    color: #2997ff;
+.bg-wrapper a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: #2997ff;
 }
 
-.bg-wrapper .gt-symbol{
-    display: inline;
-    color: #2997ff;
-    padding-top: 0.5em;
+.bg-wrapper .gt-symbol {
+  display: inline;
+  color: #2997ff;
+  padding-top: 0.5em;
 }
 
-.bg-wrapper a:hover span{
-    border-bottom: 2px solid #2997ff;
+.bg-wrapper a:hover span {
+  border-bottom: 2px solid #2997ff;
 }
 
-.section-1{
-    height: 100vh;
-    position: relative;
-    background: url(./img/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1rem 0;
+.section-1 {
+  height: 100vh;
+  position: relative;
+  background: url(./img/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1rem 0;
 }
 
-.section-1 .bg-wrapper{
-    left: 40%;
-    top: 9%;
+.section-1 .bg-wrapper {
+  left: 40%;
+  top: 9%;
 }
 
-.section-1 h1, .section-1 p{
-    color: #1d1d1f;
+.section-1 h1,
+.section-1 p {
+  color: #1d1d1f;
 }
 
-.section-1 a{
-    color: #0066cc;
+.section-1 a {
+  color: #0066cc;
 }
 
-.section-1 a:hover span{
-    border-bottom: 2px solid #0066cc;
+.section-1 a:hover span {
+  border-bottom: 2px solid #0066cc;
 }
 
-.section-2{
-    height: 100vh;
-    position: relative;
-    background: url(./img/hero_bts2023_startframe__f787lg06y3ue_large.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 1rem 0;
+.section-2 {
+  height: 100vh;
+  position: relative;
+  background: url(./img/hero_bts2023_startframe__f787lg06y3ue_large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1rem 0;
 }
 
-.section-2 .bg-wrapper{
-    left: 30%;
-    top: 10%;
+.section-2 .bg-wrapper {
+  left: 30%;
+  top: 10%;
 }
 
-.section-2 h1, .section-2 p{
-    color: #1d1d1f;
+.section-2 h1,
+.section-2 p {
+  color: #1d1d1f;
 }
 
-.section-2 a{
-    color: #0066cc;
+.section-2 a {
+  color: #0066cc;
 }
 
-.section-2 a:hover span{
-    border-bottom: 2px solid #0066cc;
+.section-2 a:hover span {
+  border-bottom: 2px solid #0066cc;
 }
 
-.section-3{
-    height: 95vh;
-    margin: 1rem 1rem;
-    display: flex;
-    flex-wrap: wrap;
+.section-3 {
+  height: 95vh;
+  margin: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.section-3 .left{
-    flex: 1 1 50%;
-    background: url(./img/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.section-3 .left {
+  flex: 1 1 49%;
+  background: url(./img/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-right: 0.5rem;
 }
 
-.section-3 .right{
-    flex: 1 1 50%;
-    background: url(./img/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.section-3 .right {
+  flex: 1 1 49%;
+  background: url(./img/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: 0.5rem;
 }
 
-.section-3 .bg-wrapper{
-    position: absolute;
+.section-3 .bg-wrapper {
+  position: absolute;
 }
 
 .left .bg-wrapper h1,
-.left .bg-wrapper p{
-    color: #1d1d1f;
+.left .bg-wrapper p {
+  color: #1d1d1f;
 }
 
-.section-3 .bg-wrapper h1{
-    font-size: 4.5rem;
-    font-weight: 500;
+.section-3 .bg-wrapper h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
 }
 
-.section-3 .bg-wrapper p{
-    font-size: 2rem;
+.section-3 .bg-wrapper p {
+  font-size: 2rem;
 }
 
-.left .bg-wrapper a{
-    font-size: 1.8rem;
-    color: #1472d0;
+.left .bg-wrapper a {
+  font-size: 1.8rem;
+  color: #1472d0;
 }
 
-.left .bg-wrapper a:hover span{
-    border-bottom: 1px solid #1472d0;
+.left .bg-wrapper a:hover span {
+  border-bottom: 1px solid #1472d0;
 }
 
-.section-3 .left .bg-wrapper{
-    top: 10%;
-    left: 25%;
+.section-3 .left .bg-wrapper {
+  top: 10%;
+  left: 25%;
 }
 
-.right .bg-wrapper a{
-    font-size: 1.8rem;
+.right .bg-wrapper a {
+  font-size: 1.8rem;
 }
 
-.right .bg-wrapper a:hover span{
-    border-bottom: 1px solid #2997ff;
+.right .bg-wrapper a:hover span {
+  border-bottom: 1px solid #2997ff;
 }
 
-.section-3 .right .bg-wrapper{
-    top: 10%;
-    left: 35%;
+.section-3 .right .bg-wrapper {
+  top: 10%;
+  left: 35%;
 }
 
-.right img{
-    margin-bottom: 1rem;
+.right img {
+  margin-bottom: 1rem;
 }
 
-.section-4{
-    height: 95vh;
-    margin: 1rem 1rem;
-    display: flex;
-    flex-wrap: wrap;
+.section-4 {
+  height: 95vh;
+  margin: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.section-4 .left{
-    flex: 1 1 50%;
-    background: url(./img/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.section-4 .left {
+  flex: 1 1 49%;
+  background: url(./img/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-right: 0.5rem;
 }
 
-.section-4 .right{
-    flex: 1 1 50%;
-    background: url(./img/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.section-4 .right {
+  flex: 1 1 49%;
+  background: url(./img/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: 0.5rem;
 }
 
-.section-4 .bg-wrapper{
-    position: absolute;
+.section-4 .bg-wrapper {
+  position: absolute;
 }
 
-.section-4 .bg-wrapper p{
-    font-size: 2rem;
+.section-4 .bg-wrapper p {
+  font-size: 2rem;
 }
 
-.section-4 .left .bg-wrapper p:nth-child(3){
-    color: #6e6e73;
-    font-size: 1.8rem;
-    margin: 0.5rem 0;
+.section-4 .left .bg-wrapper p:nth-child(3) {
+  color: #6e6e73;
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
 }
 
-.section-4 .left .bg-wrapper{
-    left: 23%;
-    top: 68%;
+.section-4 .left .bg-wrapper {
+  left: 23%;
+  top: 68%;
+}
+
+.section-4 .right p{
+  color: #1d1d1f;
+}
+
+.section-4 .right .bg-wrapper{
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.section-5{
+  height: 95vh;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-5 .left{
+  flex: 1 1 49%;
+  background: url(./img/promo_arcade_crayola_create__e9j6g4923cy2_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-right: 0.5rem;
+}
+
+.section-5 .right{
+  flex: 1 1 49%;
+  background: url(./img/tile__cauwwcyyn9hy_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-right: 0.5rem;
+}
+
+.section-5 .bg-wrapper{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.section-5 .bg-wrapper p{
+  font-size: 2rem;
+  color: #1d1d1f;
+}
+
+.section-5 .left img{
+  margin-bottom: 1rem;
+}
+
+.section-5 .left a{
+  color: #182426;
+}
+
+.section-5 .left a:hover span{
+  border-bottom: 1px solid #000000;
 }
