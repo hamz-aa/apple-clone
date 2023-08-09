@@ -409,7 +409,7 @@ footer{
   padding-bottom: 0.5em;
 }
 
-.foot-wrapper ul a{
+.foot-wrapper .extra-text a{
   color: #424245;
 }
 
@@ -423,7 +423,7 @@ footer{
   grid-auto-flow: column;
   grid-template-areas: 'cell-1 cell-3 cell-5 cell-6 cell-10'
                        'cell-1 cell-4 cell-5 cell-7 cell-10'
-                       'cell-1 cell-4 cell-5 cell-8 cell-11'
+                       'cell-2 cell-4 cell-5 cell-8 cell-11'
                        'cell-2 cell-4 cell-5 cell-9 cell-11';
 }
 
@@ -462,6 +462,23 @@ footer{
   grid-area: cell-11;
 }
 
+.extra-links ul{
+  border: 2px solid red;
+}
+
 .extra-links a{
   text-decoration: none;
+}
+
+.extra-links a{
+  color: #5e5e61ff;
+}
+
+.extra-links a:hover{
+  border-bottom: 1px solid #5e5e61;
+}
+
+.extra-links li:first-child{
+  color: #1d1d1f;
+  font-weight: 600;
 }
